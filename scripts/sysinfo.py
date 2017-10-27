@@ -23,7 +23,7 @@ def get_pythonista_version_info():
 
 def get_python_interpreter_info():
     import sys
-    return 'Default interpreter {}.{}.{}'.format(sys.version_info.major, sys.version_info.minor, sys.version_info.micro)
+    return 'Default interpreter {}.{}.{}'.format(*sys.version_info)
 
 
 def get_device_info():
