@@ -10,8 +10,8 @@ Please head over to the [Issues](https://github.com/omz/Pythonista-Issues/issues
 
 For general discussions, please use:
 
-* [Pythonista community forum](https://forum.omz-software.com/category/5/pythonista)
-* [Slack](https://forum.omz-software.com/topic/3116/pythonista-slack-chat).
+* [Pythonista community forum](https://forum.omz-software.com/category/5/pythonista) or
+* [Slack](https://forum.omz-software.com/topic/3116/pythonista-slack-chat)
 
 You can also find me on Twitter [@olemoritz](http://twitter.com/olemoritz).
 

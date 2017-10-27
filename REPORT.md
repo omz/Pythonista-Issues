@@ -10,12 +10,12 @@ saying what exactly is wrong, how to reproduce it, is.
 Check if you are using the [latest version](https://itunes.apple.com/us/app/pythonista-3/id1085978097?ls=1&mt=8).
 Bug reports should be based on the latest available version.
 
-If you're using Pythonista beta version, test your issue with the latest available version from Test Flight.
+If you're using Pythonista beta version, test your issue with the latest available version from the Test Flight.
 
 ## Known issue
 
 Please, check whether the issue you are experiencing is [already reported](https://github.com/omz/Pythonista-Issues/issues/).
-If it is already reported, you can click on the _Subscribe_ button to receive further development or you can add more details.
+If it is already reported, you can click on the _Subscribe_ button to receive further development info or you can add more details.
 Otherwise [file a new issue](https://github.com/omz/Pythonista-Issues/issues/new).
 
 ## Separate issues
