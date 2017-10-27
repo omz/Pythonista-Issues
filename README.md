@@ -4,7 +4,7 @@ This repository tracks bugs and feature requests for the [Pythonista](http://pyt
 
 ## Bug reports
 
-Please head over to the [Issues](https://github.com/omz/Pythonista-Issues/issues) tab to submit bug reports, feature requests or to comment on existing issues. Read [How to submit a (good) bug report?](CONTRIBUTING.md#how-to-submit-a-good-bug-report) before you do.
+Please head over to the [Issues](https://github.com/omz/Pythonista-Issues/issues) tab to submit bug reports, feature requests or to comment on existing issues. Read [How do I submit a (good) bug report?](CONTRIBUTING.md#how-do-i-submit-a-good-bug-report) before you do.
 
 ## General discussion
 
