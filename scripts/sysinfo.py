@@ -2,6 +2,7 @@ import plistlib
 import os
 import sys
 from objc_util import ObjCClass, on_main_thread
+import clipboard
 
 
 def get_pythonista_version_info():
@@ -22,7 +23,6 @@ def get_pythonista_version_info():
 
 
 def get_python_interpreter_info():
-    import sys
     return 'Default interpreter {}.{}.{}'.format(*sys.version_info)
 
 
@@ -39,8 +39,6 @@ def get_device_info():
 
 @on_main_thread  # clipboard.set or freeze
 def main():
-    import clipboard
-
     separator = '--- SYSTEM INFORMATION ---'
 
     info = '\n'.join([
