@@ -39,14 +39,48 @@ If you don't know from where to get this information, download and run [sysinfo.
 
 ## Issue labels
 
-### Type of issue
+### Type of issues
 
 | Label | Open :mag_right: | Closed :mag_right: | Description |
 | --- | --- | --- | --- |
 | `bug` | [search][search-open-bug] | [search][search-closed-bug] | Confirmed bugs |
 | `enhancement` | [search][search-open-enhancement] | [search][search-closed-enhancement] | Requests for enhancement |
 
+
+### Component
+
+| Label | Open :mag_right: | Closed :mag_right: | Description |
+| --- | --- | --- | --- |
+| `pythonista` | [search][search-open-pythonista] | [search][search-closed-pythonista] | Pythonista application itself (UI, editor, console, ...) |
+| `internal-module` | [search][search-open-internal-module] | [search][search-closed-internal-module] | [Pythonista modules][pythonista-modules] (`ui`, `console`, ...) |
+| `pypi-package` | [search][search-open-pypi-package] | [search][search-closed-pypi-package] | Bundled 3rd party packages |
+
+### Priority
+
+| Label | Open :mag_right: | Closed :mag_right: | Description |
+| --- | --- | --- | --- |
+| `crash` | [search][search-open-crash] | [search][search-closed-crash] | Pythonista crashes |
+| `major` | [search][search-open-major] | [search][search-closed-major] | Serious issues, no workarounds |
+| `minor` | [search][search-open-minor] | [search][search-closed-minor] | Nice to have feature |
+| normal | [search][search-open-normal] | [search][search-closed-normal] | This isn't actually a label, any issue without `major`, `minor` or `crash` labels is considered as an issue with normal priority. |
+
+
 [search-open-bug]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Abug
 [search-closed-bug]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Abug
 [search-open-enhancement]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
 [search-closed-enhancement]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Aenhancement
+[search-open-pythonista]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Apythonista
+[search-closed-pythonista]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Apythonista
+[search-open-internal-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Ainternal-module
+[search-closed-internal-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Ainternal-module
+[search-open-pypi-package]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Apypi-package
+[search-closed-pypi-package]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Apypi-package
+[search-open-crash]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Acrash
+[search-closed-crash]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Acrash
+[search-open-major]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Amajor
+[search-closed-major]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Amajor
+[search-open-minor]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Aminor
+[search-closed-minor]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Aminor
+[search-open-normal]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen%20is%3Aissue%20-label%3Amajor%20-label%3Aminor%20-label%3Acrash
+[search-closed-normal]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed%20is%3Aissue%20-label%3Amajor%20-label%3Aminor%20-label%3Acrash
+[pythonista-modules]: http://omz-software.com/pythonista/docs/ios/index.html
