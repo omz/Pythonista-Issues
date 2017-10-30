@@ -1,6 +1,7 @@
 import plistlib
 import os
 import sys
+import platform
 from objc_util import ObjCClass, on_main_thread
 import clipboard
 
@@ -32,7 +33,7 @@ def get_device_info():
     native_size = main_screen.nativeBounds().size
 
     return 'iOS {}, model {}, resolution (portrait) {} x {} @ {}'.format(
-        device.systemVersion(), device.model(),
+        device.systemVersion(), platform.machine(),
         native_size.width, native_size.height, main_screen.nativeScale()
     )
 
