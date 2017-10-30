@@ -52,8 +52,8 @@ If you don't know from where to get this information, download and run [sysinfo.
 | Label | Open :mag_right: | Closed :mag_right: | Description |
 | --- | --- | --- | --- |
 | `pythonista` | [search][search-open-pythonista] | [search][search-closed-pythonista] | Pythonista application itself (UI, editor, console, ...) |
-| `internal-module` | [search][search-open-internal-module] | [search][search-closed-internal-module] | [Pythonista modules][pythonista-modules] (`ui`, `console`, ...) |
-| `pypi-package` | [search][search-open-pypi-package] | [search][search-closed-pypi-package] | Bundled 3rd party packages |
+| `internal-module` | [search][search-open-internal-module] | [search][search-closed-internal-module] | [Pythonista modules][pythonista-internal-modules] (`ui`, `console`, ...) |
+| `3rd-party-module` | [search][search-open-3rd-party-module] | [search][search-closed-3rd-party-module] | [Bundled 3rd party packages][pythonista-module-index] minus internal modules |
 
 ### Priority
 
@@ -73,8 +73,8 @@ If you don't know from where to get this information, download and run [sysinfo.
 [search-closed-pythonista]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Apythonista
 [search-open-internal-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Ainternal-module
 [search-closed-internal-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Ainternal-module
-[search-open-pypi-package]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Apypi-package
-[search-closed-pypi-package]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Apypi-package
+[search-open-3rd-party-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3A3rd-party-module
+[search-closed-3rd-party-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3A3rd-party-module
 [search-open-crash]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Acrash
 [search-closed-crash]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Acrash
 [search-open-major]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Amajor
@@ -83,4 +83,5 @@ If you don't know from where to get this information, download and run [sysinfo.
 [search-closed-minor]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Aminor
 [search-open-normal]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen%20is%3Aissue%20-label%3Amajor%20-label%3Aminor%20-label%3Acrash
 [search-closed-normal]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed%20is%3Aissue%20-label%3Amajor%20-label%3Aminor%20-label%3Acrash
-[pythonista-modules]: http://omz-software.com/pythonista/docs/ios/index.html
+[pythonista-internal-modules]: http://omz-software.com/pythonista/docs/ios/index.html
+[pythonista-module-index]: http://omz-software.com/pythonista/docs/py-modindex.html
