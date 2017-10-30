@@ -46,7 +46,7 @@ If you don't know from where to get this information, download and run [sysinfo.
 
 Why? Some bugs may appear on specific device, specific iOS version and it's very helpful to know more about your system. Problem can be identified and fixed more quickly.
 
-If you feel bad about sharing system information of your device, don't attach it. It's mandatory, but it's really helpful.
+If you feel bad about sharing system information of your device, don't attach it. It's not mandatory, but it's really helpful.
 
 ## Issue labels
 
