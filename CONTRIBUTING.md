@@ -2,6 +2,8 @@
 
 Thank you for you contribution. It's really appreciated.
 
+Set of guidelines follows. Use your best judgment, the world is not black and white and these guidelines are not hard rules.
+
 **Table of contents**
 
 * [How can I contribute?](#how-can-i-contribute)
@@ -26,7 +28,12 @@ Thank you for you contribution. It's really appreciated.
 * **Steps to reproduce** - Include all steps how to reproduce your issue. More details, faster resolution. Don't just say what you did, but explain how you did it (tapping on, hw keyboard, ...).
 * **Expected behavior** - If something doesn't work as expected, include what exactly should happen.
 * **Sample code** - Sample code demonstrating your issue is very helpful. If it's short, include it directly in the issue. Read [Quoting code](https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code) to learn how to include code in the issue. [Gist](https://gist.github.com) is preferred in case your code is too long.
-* **System information** - It's always good to attach system information. Your issue can be iPhone, iPad, iOS, Python interpreter version specific. Example (preformatted Markdown for GitHub issues):
+* **System information** - It's always good to attach system information.
+* **Ask yourself** - Is my description detailed enough that everyone understands what's my problem?
+
+#### System information
+
+Here's an example of system information to attach (preformatted Markdown):
 
 ```
 **System Information**
@@ -37,9 +44,17 @@ Thank you for you contribution. It's really appreciated.
 
 If you don't know from where to get this information, download and run [sysinfo.py](scripts/sysinfo.py) script.
 
+Why? Some bugs may appear on specific device, specific iOS version and it's very helpful to know more about your system. Problem can be identified and fixed more quickly.
+
+If you feel bad about sharing system information of your device, don't attach it. It's mandatory, but it's really helpful.
+
 ## Issue labels
 
-### Type of issues
+* It's not required that every issue must have a label from every group
+* Issue can have multiple labels from one group
+* If there're no labels, issue wasn't reviewed yet
+
+### Issue types
 
 | Label | Open :mag_right: | Closed :mag_right: | Description |
 | --- | --- | --- | --- |
@@ -47,23 +62,22 @@ If you don't know from where to get this information, download and run [sysinfo.
 | `enhancement` | [search][search-open-enhancement] | [search][search-closed-enhancement] | Requests for enhancement |
 
 
-### Component
+### Issues components
 
 | Label | Open :mag_right: | Closed :mag_right: | Description |
 | --- | --- | --- | --- |
 | `pythonista` | [search][search-open-pythonista] | [search][search-closed-pythonista] | Pythonista application itself (UI, editor, console, ...) |
-| `internal-module` | [search][search-open-internal-module] | [search][search-closed-internal-module] | [Pythonista modules][pythonista-internal-modules] (`ui`, `console`, ...) |
-| `3rd-party-module` | [search][search-open-3rd-party-module] | [search][search-closed-3rd-party-module] | [Bundled 3rd party packages][pythonista-module-index] minus internal modules |
+| `internal-module` | [search][search-open-internal-module] | [search][search-closed-internal-module] | [Pythonista specific modules][pythonista-internal-modules] (`ui`, `console`, ...) |
+| `3rd-party-module` | [search][search-open-3rd-party-module] | [search][search-closed-3rd-party-module] | [Bundled 3rd party modules][pythonista-module-index] minus [internal modules][pythonista-internal-modules] |
 
-### Priority
+### Issue priorities
 
 | Label | Open :mag_right: | Closed :mag_right: | Description |
 | --- | --- | --- | --- |
 | `crash` | [search][search-open-crash] | [search][search-closed-crash] | Pythonista crashes |
-| `major` | [search][search-open-major] | [search][search-closed-major] | Serious issues, no workarounds |
+| `major` | [search][search-open-major] | [search][search-closed-major] | Serious issue, no workarounds, ... |
+| normal | [search][search-open-normal] | [search][search-closed-normal] | This isn't actually a label, any issue without `major`, `minor` or `crash` labels is considered as an issue with normal priority |
 | `minor` | [search][search-open-minor] | [search][search-closed-minor] | Nice to have feature |
-| normal | [search][search-open-normal] | [search][search-closed-normal] | This isn't actually a label, any issue without `major`, `minor` or `crash` labels is considered as an issue with normal priority. |
-
 
 [search-open-bug]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Abug
 [search-closed-bug]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Abug
