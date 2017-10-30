@@ -69,6 +69,7 @@ If you feel bad about sharing system information of your device, don't attach it
 | `pythonista` | [search][search-open-pythonista] | [search][search-closed-pythonista] | Pythonista application itself (UI, editor, console, ...) |
 | `internal-module` | [search][search-open-internal-module] | [search][search-closed-internal-module] | [Pythonista specific modules][pythonista-internal-modules] (`ui`, `console`, ...) |
 | `3rd-party-module` | [search][search-open-3rd-party-module] | [search][search-closed-3rd-party-module] | [Bundled 3rd party modules][pythonista-module-index] minus [internal modules][pythonista-internal-modules] |
+| `documentation` | [search][search-open-documentation] | [search][search-closed-documentation] | Documentation and examples |
 
 ### Issue priorities
 
@@ -89,6 +90,8 @@ If you feel bad about sharing system information of your device, don't attach it
 [search-closed-internal-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Ainternal-module
 [search-open-3rd-party-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3A3rd-party-module
 [search-closed-3rd-party-module]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3A3rd-party-module
+[search-open-documentation]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation
+[search-closed-documentation]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Adocumentation
 [search-open-crash]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Acrash
 [search-closed-crash]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed+is%3Aissue+label%3Acrash
 [search-open-major]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aopen+is%3Aissue+label%3Amajor
