@@ -16,9 +16,9 @@ Set of guidelines follows. Use your best judgment, the world is not black and wh
 
 #### Before submitting a bug report
 
-* **Check** the [forum](https://forum.omz-software.com/category/5/pythonista) for a list of common issues and possible workarounds.
-* **Check** wheter the issue you are experiencing is [already reported](https://github.com/omz/Pythonista-Issues/issues/). If it is already reported, you can click on the _Subscribe_ button to receive further development info or you can add more details.
-* **Check** if you're using the [latest Pythonista version](https://itunes.apple.com/us/app/pythonista-3/id1085978097?ls=1&mt=8). Bug reports should be based on the latest available version. If you're using Pythonista beta version, test your issue with the latest available version from the Test Flight.
+* **Check** the [forum][pythonista-forum] for a list of common issues and possible workarounds.
+* **Check** wheter the issue you are experiencing is [already reported][pythonista-issues]. If it is already reported, you can click on the _Subscribe_ button to receive further development info or you can add more details.
+* **Check** if you're using the [latest Pythonista version][pythonista-app-store]. Bug reports should be based on the latest available version. If you're using Pythonista beta version, test your issue with the latest available version from the Test Flight.
 
 #### How do I submit a bug report?
 
@@ -27,7 +27,7 @@ Set of guidelines follows. Use your best judgment, the world is not black and wh
 * **Use clear and descriptive title** - title like "help system" is not helpful.
 * **Steps to reproduce** - Include all steps how to reproduce your issue. More details, faster resolution. Don't just say what you did, but explain how you did it (tapping on, hw keyboard, ...).
 * **Expected behavior** - If something doesn't work as expected, include what exactly should happen.
-* **Sample code** - Sample code demonstrating your issue is very helpful. If it's short, include it directly in the issue. Read [Quoting code](https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code) to learn how to include code in the issue. [Gist](https://gist.github.com) is preferred in case your code is too long.
+* **Sample code** - Sample code demonstrating your issue is very helpful. If it's short, include it directly in the issue. Read [Quoting code][github-quoting-code] to learn how to include code in the issue. [Gist][github-gist] is preferred in case your code is too long.
 * **System information** - It's always good to attach system information.
 * **Ask yourself** - Is my description detailed enough that everyone understands what's my problem?
 
@@ -42,7 +42,7 @@ Here's an example of system information to attach (preformatted Markdown):
 * iOS 11.0.3, model iPad, resolution (portrait) 2048.0 x 2732.0 @ 2.0
 ```
 
-If you don't know from where to get this information, download and run [sysinfo.py](scripts/sysinfo.py) script.
+If you don't know from where to get this information, download and run [sysinfo.py][pythonista-sysinfo-script] script.
 
 Why? Some bugs may appear on specific device, specific iOS version and it's very helpful to know more about your system. Problem can be identified and fixed more quickly.
 
@@ -99,3 +99,9 @@ If you feel bad about sharing system information of your device, don't attach it
 [search-closed-normal]: https://github.com/omz/Pythonista-Issues/issues?q=is%3Aclosed%20is%3Aissue%20-label%3Amajor%20-label%3Aminor%20-label%3Acrash
 [pythonista-internal-modules]: http://omz-software.com/pythonista/docs/ios/index.html
 [pythonista-module-index]: http://omz-software.com/pythonista/docs/py-modindex.html
+[pythonista-forum]: https://forum.omz-software.com/category/5/pythonista
+[pythonista-issues]: https://github.com/omz/Pythonista-Issues/issues
+[pythonista-app-store]: https://itunes.apple.com/us/app/pythonista-3/id1085978097?ls=1&mt=8
+[pythonista-sysinfo-script]: scripts/sysinfo.py
+[github-quoting-code]: https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code
+[github-gist]: https://gist.github.com
