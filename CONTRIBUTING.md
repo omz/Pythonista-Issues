@@ -41,7 +41,7 @@ If you don't know from where to get this information, download and run [sysinfo.
 
 ### Type of issue
 
-| Label | Open :mag_right: | Closed :mag_right: Description |
+| Label | Open :mag_right: | Closed :mag_right: | Description |
 | --- | --- | --- | --- |
 | `bug` | [search][search-open-bug] | [search][search-closed-bug] | Confirmed bugs |
 | `enhancement` | [search][search-open-enhancement] | [search][search-closed-enhancement] | Requests for enhancement |
