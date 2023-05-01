@@ -2,6 +2,7 @@ import plistlib
 import os
 import sys
 import platform
+from pathlib import Path
 from objc_util import ObjCClass, on_main_thread
 import clipboard
 
@@ -12,7 +13,8 @@ def get_pythonista_version_info():
 
     try:
         plist_path = os.path.abspath(os.path.join(sys.executable, '..', 'Info.plist'))
-        plist = plistlib.readPlist(plist_path)
+        plist_data = Path(plist_path).read_bytes()
+        plist = plistlib.loads(plist_data)
 
         version = plist['CFBundleShortVersionString']
         bundle_version = plist['CFBundleVersion']
