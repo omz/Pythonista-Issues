@@ -1,5 +1,4 @@
 import plistlib
-import os
 import sys
 import platform
 from pathlib import Path
@@ -12,10 +11,8 @@ def get_pythonista_version_info():
     bundle_version = None
 
     try:
-        plist_path = os.path.abspath(os.path.join(sys.executable, '..', 'Info.plist'))
-        plist_data = Path(plist_path).read_bytes()
-        plist = plistlib.loads(plist_data)
-
+        info_plist = plistlib.loads((Path(sys.executable).parent / 
+        'Info.plist').read_bytes())
         version = plist['CFBundleShortVersionString']
         bundle_version = plist['CFBundleVersion']
 
