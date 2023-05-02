@@ -11,8 +11,7 @@ def get_pythonista_version_info():
     bundle_version = None
 
     try:
-        info_plist = plistlib.loads((Path(sys.executable).parent / 
-        'Info.plist').read_bytes())
+        plist = plistlib.loads((Path(sys.executable).parent /  'Info.plist').read_bytes())
         version = plist['CFBundleShortVersionString']
         bundle_version = plist['CFBundleVersion']
 
